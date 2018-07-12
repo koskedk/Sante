@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sante.SharedKernel", "Sante.SharedKernel\Sante.SharedKernel.csproj", "{54DF6295-AF7A-4A26-BE05-1286E43CC880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sante.SharedKernel.Tests", "Sante.SharedKernel.Tests\Sante.SharedKernel.Tests.csproj", "{3D69EB03-DCA4-4A09-A51F-5012A403176D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{BAF6D25E-4939-43D6-84C6-F7CF4D3D726E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D5C3FA08-B918-4E5A-8765-2536B21A4C99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sante.SharedKernel.Infrastructure", "Sante.SharedKernel.Infrastructure\Sante.SharedKernel.Infrastructure.csproj", "{AB71B65F-1ACD-4341-ADE6-72D12E312097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sante.SharedKernel.Infrastructure.Tests", "Sante.SharedKernel.Infrastructure.Tests\Sante.SharedKernel.Infrastructure.Tests.csproj", "{012CD673-9670-46D4-82C8-A9C50758BA2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54DF6295-AF7A-4A26-BE05-1286E43CC880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DF6295-AF7A-4A26-BE05-1286E43CC880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DF6295-AF7A-4A26-BE05-1286E43CC880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DF6295-AF7A-4A26-BE05-1286E43CC880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D69EB03-DCA4-4A09-A51F-5012A403176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D69EB03-DCA4-4A09-A51F-5012A403176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D69EB03-DCA4-4A09-A51F-5012A403176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D69EB03-DCA4-4A09-A51F-5012A403176D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB71B65F-1ACD-4341-ADE6-72D12E312097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB71B65F-1ACD-4341-ADE6-72D12E312097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB71B65F-1ACD-4341-ADE6-72D12E312097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB71B65F-1ACD-4341-ADE6-72D12E312097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{012CD673-9670-46D4-82C8-A9C50758BA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012CD673-9670-46D4-82C8-A9C50758BA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012CD673-9670-46D4-82C8-A9C50758BA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012CD673-9670-46D4-82C8-A9C50758BA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54DF6295-AF7A-4A26-BE05-1286E43CC880} = {BAF6D25E-4939-43D6-84C6-F7CF4D3D726E}
+		{3D69EB03-DCA4-4A09-A51F-5012A403176D} = {BAF6D25E-4939-43D6-84C6-F7CF4D3D726E}
+		{D5C3FA08-B918-4E5A-8765-2536B21A4C99} = {BAF6D25E-4939-43D6-84C6-F7CF4D3D726E}
+		{AB71B65F-1ACD-4341-ADE6-72D12E312097} = {D5C3FA08-B918-4E5A-8765-2536B21A4C99}
+		{012CD673-9670-46D4-82C8-A9C50758BA2F} = {D5C3FA08-B918-4E5A-8765-2536B21A4C99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4A421A1-2FF4-44A2-90DF-EA94B2D05CEC}
+	EndGlobalSection
+EndGlobal
