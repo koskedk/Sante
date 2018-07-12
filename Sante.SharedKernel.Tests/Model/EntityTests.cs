@@ -13,7 +13,7 @@ namespace Sante.SharedKernel.Tests.Model
         [SetUp]
         public void Setup()
         {
-            _testEntity = new TestEntity("Subaru");
+            _testEntity = new TestEntity("Subaru Car");
         }
 
         [Test]
