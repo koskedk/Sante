@@ -47,7 +47,6 @@ namespace Sante.SharedKernel.Tests.Custom
             string other = string.Empty;
             string nullString = null;
 
-
             Assert.True(first.IsSameAs(second));
             Assert.False(first.IsSameAs(other));
             Assert.False(nullString.IsSameAs(first));
