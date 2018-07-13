@@ -4,4 +4,4 @@ dotnet: 2.1
 script:
  - dotnet restore
  - dotnet build
- - dotnet test *.Tests
+ - ls *Tests*/*.csproj | xargs -L1 dotnet test --logger:trx
